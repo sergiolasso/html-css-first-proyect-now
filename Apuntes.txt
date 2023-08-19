@@ -1,0 +1,39 @@
+Front-end
+
+Todo lo que tenga que ver con lo que vee el usuario. Que se vea bonito 
+
+Tiene que manejar : 
+ - HTML
+ - CSS 
+ - JS
+
+La mayoria de trabajadores de este sector utilizan framewords, para poder ser mas eficientes
+
+
+Preprocesdores CSS:  
+
+Técnologias que se utilizan para trabajar con CSS de forma más comoda 
+
+
+Compiladores de JS: 
+
+Babel o webpack 
+
+
+Como buena practica: 
+
+Se debe de trabajar siempre sobre las ultimas versiones de JS 
+
+
+Back-end 
+
+Personas que trabajan la parte del servidor. Se encarga de las cosas que no vee el usuario, la parte lógica.
+No presenta estandares de WEB3. 
+
+Se usaban varios lenguajes de programación. (Python, java, GO ...)
+
+Frameworks paratrabajar en ello. (larabel, spring...) cada uno es para un lenguaje de programación distinto. 
+
+Todo lo que se utilica de forma másiva (app store, hosting ...) debe subirse a la nube. 
+
+

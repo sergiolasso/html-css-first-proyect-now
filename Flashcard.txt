@@ -1,0 +1,18 @@
+Front -end Tecnologias 
+
+HTML CSS JS 
+
+
+que es un front -end ?
+
+Persona que se encarga de diseñar la parte visual de una app o web 
+
+
+que es un Back -end ?
+
+Persona que se encarga de la parte lógica de una app. La mecanica interna. 
+
+
+que es un dev ops ? 
+
+Persona que se especializa en la conexión entre la lógica de la app y la nube. 
