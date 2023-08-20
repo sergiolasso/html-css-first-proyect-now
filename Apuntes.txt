@@ -67,7 +67,7 @@ HTML
 
 <!DOCTYPE html> -----> En todas las paginas para que el navegador sepa donde esta
 <html lang="es"> -----> Idioma 
-<head>
+<head> -----> contenido que no va a ver al usuario y que da información al servidor o buscador
     <meta charset="UTF-8"> -----> Caracteres especiales
     <meta name="description" content="Primera pagina slasso"> 
     
@@ -80,10 +80,13 @@ HTML
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     -----> Responsive (Lo tiene que tener todas las paginas webs)
-    
-    <title>Document</title>
+
+    <title>Mi tercera pagina web</title> -----> titulo pagina web
+    <link rel="stylesheet" href="css/styles.css"> -----> conexion entre una pagina y las hojas de estilos
 </head>
 <body>
+    
+    -----> contenido real que va a ver el usuario
     
 </body>
 </html>
