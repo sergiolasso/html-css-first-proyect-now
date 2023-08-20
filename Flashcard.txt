@@ -16,3 +16,13 @@ Persona que se encarga de la parte lógica de una app. La mecanica interna.
 que es un dev ops ? 
 
 Persona que se especializa en la conexión entre la lógica de la app y la nube. 
+
+
+que entiene un full stack?
+
+Entiende todas las fases por las que va a pasar una app. 
+Por lo tanto es la suma de: 
+- Front-end
+- Back-end 
+- Dev Ops
+

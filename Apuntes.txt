@@ -36,4 +36,12 @@ Frameworks paratrabajar en ello. (larabel, spring...) cada uno es para un lengua
 
 Todo lo que se utilica de forma másiva (app store, hosting ...) debe subirse a la nube. 
 
+Se encargan de la conexión a base de datos BB.DD. 
 
+
+Full Stack 
+
+Hace todo. Entiende todas las partes del proceso dentro de una app. 
+No es lo más correcto debido a que hay muchas tecnología que se actualizan cada pocos meses. 
+
+Es algo bastante habitual en pequeñas empresas 
