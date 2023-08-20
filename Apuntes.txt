@@ -90,3 +90,26 @@ HTML
     
 </body>
 </html>
+
+    <header> ----> Encabezado
+        <nav></nav> -----> Menu de navegación
+    </header>
+    <main> -----> Contenido principal de la pagina
+        <section> -----> Sección de contenido con varios articulos 
+            <article></article> -----> Contenido de una sección
+            <article></article>
+        </section>
+        <ul> ---> Creación de una lista desordenada. 
+            <li>Soy una patata</li> ---> Elemento dentro de una lista.
+            <li></li>
+        </ul>
+        <ol> -----> Creación de una lista ordenada. 
+            <li>Soy una patata ordenada</li>
+        </ol>
+        <p>Soy un parrafo</p> ----> Creación de un parrafo 
+        <h1>Soy un titulo</h1> -----> Creación de un titul o
+        <h2>Soy un subtitulo</h2>
+        <a href="index.html">Soy un link malicioso</a> -----> Etiquetas de un link. (Si no se ponde href la pagina se refresca)
+    </main>
+    <footer> -----> Pie de pagina de una web.
+    </footer>
