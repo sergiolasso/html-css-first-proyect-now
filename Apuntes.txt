@@ -45,3 +45,19 @@ Hace todo. Entiende todas las partes del proceso dentro de una app.
 No es lo más correcto debido a que hay muchas tecnología que se actualizan cada pocos meses. 
 
 Es algo bastante habitual en pequeñas empresas 
+
+
+Paginas estáticas (Landing pages)
+
+Son paginas informativas. 
+No suelen modificar la información que muestran una vez subida. 
+El mejor ejemplo son los blogpop donde se comparte información pero el usuario apenas puede hacer nada. 
+
+
+Paginas dinamicas (Web Apps)
+
+Tiene una conexion a base de datos. 
+Twitter, facebook, platzi ... van cambiando cada poco tiempo. 
+El usuario puede interactuar. 
+Suele ser necesario un registro para usarla. 
+

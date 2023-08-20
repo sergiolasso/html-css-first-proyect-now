@@ -26,3 +26,9 @@ Por lo tanto es la suma de:
 - Back-end 
 - Dev Ops
 
+
+Qué diferencia hay entre una paginas dinamica y una estatica? 
+
+La estatica, muestra información, no se modifica y el usuario no cambia.
+La dinamica, se cambia a cada rato, requiere un registro a veces y el usuario si puede hacer cosas en la pagina. 
+
