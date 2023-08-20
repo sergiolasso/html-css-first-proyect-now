@@ -62,4 +62,28 @@ El usuario puede interactuar.
 Suele ser necesario un registro para usarla. 
 Usa base de datos. 
 
+HTML 
 
+
+<!DOCTYPE html> -----> En todas las paginas para que el navegador sepa donde esta
+<html lang="es"> -----> Idioma 
+<head>
+    <meta charset="UTF-8"> -----> Caracteres especiales
+    <meta name="description" content="Primera pagina slasso"> 
+    
+    -----> Descripcion de la pagina web 
+
+    <meta name="robots" content="index, follow">
+
+    -----> Cosas para que los algoritmos coloquen mejor la pagina 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    -----> Responsive (Lo tiene que tener todas las paginas webs)
+    
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

@@ -32,3 +32,7 @@ Qué diferencia hay entre una paginas dinamica y una estatica?
 La estatica, muestra información, no se modifica y el usuario no cambia.
 La dinamica, se cambia a cada rato, requiere un registro a veces y el usuario si puede hacer cosas en la pagina. 
 
+
+¿Para que se utiliza la etiqueta -> <meta name="robots" content="index, follow">
+
+Para que los buscadores puedan colocar la pagina web de mejor forma. 
