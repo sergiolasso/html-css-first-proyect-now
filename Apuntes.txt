@@ -133,7 +133,6 @@ PESO +
 PNG (transparencia), GIT, SVG (No se pixela / para logos)
 
 
-
 OPTIMIZACIÓ DE IMAGENES 
 
 Una imagen no debe de superar los 70 - 100 kB. 
