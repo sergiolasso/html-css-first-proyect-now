@@ -53,3 +53,18 @@ Para que nuestra pagina sea responsive, y evitar que el usuario tenga que hacer 
 ul o ol 
 
 
+¿Cual formato de imagen presenta transparencias?
+
+PNG 
+
+
+¿Cual es el formato de imagen que se utiliza para logos? 
+
+SVG 
+
+
+¿Cual es el tamaño máximo que una imagen deberia de pesar en un proyecto web? 
+
+70 - 100 kB
+
+
