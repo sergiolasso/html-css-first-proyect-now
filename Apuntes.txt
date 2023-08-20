@@ -60,4 +60,6 @@ Tiene una conexion a base de datos.
 Twitter, facebook, platzi ... van cambiando cada poco tiempo. 
 El usuario puede interactuar. 
 Suele ser necesario un registro para usarla. 
+Usa base de datos. 
+
 
