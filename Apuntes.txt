@@ -139,3 +139,13 @@ Una imagen no debe de superar los 70 - 100 kB.
 
 
 
+ETIQUETAS DE IMAGENES 
+
+<section>
+    <figure> ----> Etiqueta encapsuladora de BB. PP. 
+        <img src="/img/imagenGrande.jpg" alt="Grande"> -----> Etiqueta de imagen. alt -> Accesibilidad src -> direccion 
+    </figure>
+    <figcaption>Es una imagen de un gatete</figcaption> ----> Pie de la imagen. 
+</section>
+
+

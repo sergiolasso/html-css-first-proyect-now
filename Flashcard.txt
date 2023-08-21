@@ -68,3 +68,12 @@ SVG
 70 - 100 kB
 
 
+¿Cual es la etiqueta encapsuladora de img? 
+
+figure
+
+
+¿Cual es la etiqueta para poner al pie de las fotos?
+
+figcaption
+
