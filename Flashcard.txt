@@ -98,3 +98,13 @@ Porque no se le ha pedido permiso al usuario y muchos navegadores lo tienen pena
 placeholder
 
 
+¿Cual es el input para que salga el botón de enviar? 
+
+<input type="submit">
+
+
+¿Como se pone un comentario en html? 
+
+<!--Texto a comentar--> 
+
+

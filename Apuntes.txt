@@ -166,4 +166,6 @@ Los formularios son muy importantes de cara a que es la forma en la que los usua
         -> placeholder es una ayuda para que el usuario sepa que tiene que poner. 
         -> type indica el tipo de dato que se va a guardar.
     </label>
+    <input type="datetime-local" id="calendario" name="calendario"> ---> el type datatime-local extrae los datos de fecha y hora de hoy lo que permite acelerar el rellenado de los datos y mejorando la actuación con el usuario. 
+    <input type="submit"> ---> es el boton de enviar. 
 </form>
