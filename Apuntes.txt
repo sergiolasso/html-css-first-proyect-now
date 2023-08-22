@@ -169,3 +169,7 @@ Los formularios son muy importantes de cara a que es la forma en la que los usua
     <input type="datetime-local" id="calendario" name="calendario"> ---> el type datatime-local extrae los datos de fecha y hora de hoy lo que permite acelerar el rellenado de los datos y mejorando la actuación con el usuario. 
     <input type="submit"> ---> es el boton de enviar. 
 </form>
+
+El autocomplete permite al usuario rellenar los datos de un formulario con los datos que ya ha rellenado de forma habitual en otro. 
+
+El required es utilizado para obligar al usuario a rellenar los campos obligatorios. 

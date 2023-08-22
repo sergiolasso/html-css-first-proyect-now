@@ -108,3 +108,6 @@ placeholder
 <!--Texto a comentar--> 
 
 
+¿Donde se tiene que poner el autocomplete?
+
+Dentro del input como un atributo.
