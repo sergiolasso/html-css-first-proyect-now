@@ -148,4 +148,22 @@ ETIQUETAS DE IMAGENES
     <figcaption>Es una imagen de un gatete</figcaption> ----> Pie de la imagen. 
 </section>
 
+<video controls preload="auto"> ---> etiqueta de video 
+                                -> controls es para los controles de video. 
+                                --> preload="auto" es para que se vaya cargando el video. 
 
+    <source src="img/little-cat.mp4#t=2,10"> ---> etiqueta para poner varios tipos de videos. mp3 mp4
+</video>
+
+
+Los formularios son muy importantes de cara a que es la forma en la que los usuarios nos dan informacion y siguen con los procesos de comprar por ejemplo.
+
+
+<form action=""> ----> etiqueta para la creacion de un formulario
+    <label for="nombre"> -----> elemento de un formulario
+        <span>¿Cual es tu nombre? </span> ----> texto que sale en un formulario (nombre, fecha, apellidos)
+        <input type="text" id="nombre" placeholder="Tu nombre"> ---> Zona donde se guardara lo que escriba el usuario.
+        -> placeholder es una ayuda para que el usuario sepa que tiene que poner. 
+        -> type indica el tipo de dato que se va a guardar.
+    </label>
+</form>

@@ -77,3 +77,24 @@ figure
 
 figcaption
 
+
+¿Qué hay que poner en una etiqueta de video para que salga el controlador de pausa e inicio? 
+
+controls 
+
+
+Si tengo diferentes formatos de video ¿que tipo de etiqueta se debe de usar en video? 
+
+source
+
+
+¿Por que es una mala practica poner un video en automatico?
+
+Porque no se le ha pedido permiso al usuario y muchos navegadores lo tienen penalizado. 
+
+
+¿Que atributo se pone en la etiqueta para decirle a un usuario lo que tiene que poner dentro de un input? 
+
+placeholder
+
+
