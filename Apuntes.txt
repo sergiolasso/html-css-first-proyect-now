@@ -1,6 +1,6 @@
 Front-end
 
-Todo lo que tenga que ver con lo que vee el usuario. Que se vea bonito 
+Todo lo que tenga que ver con lo que ve el usuario. Que se vea bonito 
 
 Tiene que manejar : 
  - HTML
@@ -28,7 +28,6 @@ Se debe de trabajar siempre sobre las ultimas versiones de JS
 Back-end 
 
 Personas que trabajan la parte del servidor. Se encarga de las cosas que no vee el usuario, la parte lógica.
-No presenta estandares de WEB3. 
 
 Se usaban varios lenguajes de programación. (Python, java, GO ...)
 
@@ -125,6 +124,7 @@ PESO -
 
 JPG (fotos), JPEG 
 
+
 Lossless (sin perdida)
 
 CALIDAD + 
@@ -136,8 +136,6 @@ PNG (transparencia), GIT, SVG (No se pixela / para logos)
 OPTIMIZACIÓ DE IMAGENES 
 
 Una imagen no debe de superar los 70 - 100 kB. 
-
-
 
 ETIQUETAS DE IMAGENES 
 
@@ -173,3 +171,29 @@ Los formularios son muy importantes de cara a que es la forma en la que los usua
 El autocomplete permite al usuario rellenar los datos de un formulario con los datos que ya ha rellenado de forma habitual en otro. 
 
 El required es utilizado para obligar al usuario a rellenar los campos obligatorios. 
+
+
+La etiqueta select esta obsoleta. Con cada vez un mundo con más opciones en todo. La opción más como es ir escribiendo lo que uno desea, hasta que salga una opción con lo que uno quiere. 
+
+OBSOLETO -> 
+
+<select name="cursos" id="">
+            <option value="">JavaScript</option>
+            <option value="">HTML 5</option>
+            <option value="">CSS3</option>
+            <option value="">Web Standards</option>
+</select>
+
+Actual -> 
+
+<input list="cursos">
+    <datalist id="cursos">
+        <option value="JavaScript"></option>
+        <option value="HTML5"></option>
+        <option value="CSS3"></option>
+        <option value="Web Standards"></option>
+    </datalist>
+
+De esta forma el usuario puede ir escribiendo hasta encontrar lo que el quiere. 
+Si por ejemplo no es ninguna de las opcciones que le hemos puesto en la lista. Podra mandarnos lo que el desea. 
+

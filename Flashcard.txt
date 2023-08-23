@@ -50,7 +50,7 @@ Para que nuestra pagina sea responsive, y evitar que el usuario tenga que hacer 
 
 ¿Cual genera un lista ordenada? 
 
-ul o ol 
+ol 
 
 
 ¿Cual formato de imagen presenta transparencias?
@@ -111,3 +111,16 @@ placeholder
 ¿Donde se tiene que poner el autocomplete?
 
 Dentro del input como un atributo.
+
+
+¿Para que se utiliza el atributo required? 
+
+Para que un formulario no pueda ser enviado si este presenta falta de los datos los cuales nosotros hemos puesto el required. 
+
+
+Cual es la mejor etiqueta de select para evitar el Scrol infinito? 
+
+input list = ""
+datalist
+
+
