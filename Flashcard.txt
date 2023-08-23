@@ -124,3 +124,8 @@ input list = ""
 datalist
 
 
+¿Cual es la difernecia entre button e input type="submit"? 
+
+Ninguna, que al button le puedes poner el texto que más te guste. Aunque tambien hay formas para modificarlo.
+
+
