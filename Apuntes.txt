@@ -197,3 +197,14 @@ Actual ->
 De esta forma el usuario puede ir escribiendo hasta encontrar lo que el quiere. 
 Si por ejemplo no es ninguna de las opcciones que le hemos puesto en la lista. Podra mandarnos lo que el desea. 
 
+
+
+CSS 3 
+
+Funciona en cascada. 
+Se trata de un estandar la cual nos permite estilizar las paginas webs 
+
+Ejemplo: 
+
+Escribes una carta: 
+HTML es un lapiz, mientras que CSS es lapiz de color, los rotus y los colores. 
