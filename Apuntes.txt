@@ -208,3 +208,7 @@ Ejemplo:
 
 Escribes una carta: 
 HTML es un lapiz, mientras que CSS es lapiz de color, los rotus y los colores. 
+
+        <p style="font-size: 30px;">Soy un texto</p> ----> Esto es el método embebido. 
+
+        

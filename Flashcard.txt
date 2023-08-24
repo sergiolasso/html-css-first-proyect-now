@@ -129,3 +129,8 @@ datalist
 Ninguna, que al button le puedes poner el texto que más te guste. Aunque tambien hay formas para modificarlo.
 
 
+¿Como se escribe un comentario en el codigo CSS? 
+
+/**/
+
+
