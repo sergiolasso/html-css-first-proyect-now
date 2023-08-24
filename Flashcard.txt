@@ -134,3 +134,12 @@ Ninguna, que al button le puedes poner el texto que más te guste. Aunque tambie
 /**/
 
 
+¿Como se llama la metología para la creacción de clases dentro de HTML y CSS ? 
+
+BEM 
+
+¿Cual es el atributo que permite quitar la decoraciones pro defecto que tienen las listas? Ejemplo: a una lista ordenada quitarle el punto. 
+
+list-style: none
+
+

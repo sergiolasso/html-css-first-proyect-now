@@ -211,4 +211,26 @@ HTML es un lapiz, mientras que CSS es lapiz de color, los rotus y los colores.
 
         <p style="font-size: 30px;">Soy un texto</p> ----> Esto es el método embebido. 
 
-        
+Una de las formas para la creaccion de clases para posteriormente poner los estilos se llama BEM. Esta metodología permite a los navegadores entenderlo mejor dando menos errores.         
+
+
+EJEMPLOS DE PSEDOCLASES
+
+.main-nav__item a:hover { ----> cuando el raton esta encima, es cuando se aplican estilos
+    color: blue;
+}
+
+.main-nav__item a:active { -----> cuando el ratón ha hecho click, es cuando se aplican estos estilos. 
+    color: red; 
+}
+
+
+Las pseudoclases, nos permiten, hacer modificaciones en los estilos cuando el usuario a interactuado con algún apartado de la pagina. 
+
+EJEMPLO DE PSEUDO ELEMENTO --> MODIFICA EL CONTENIDO DEL HTML. 
+
+.main-nav__item a:after { ----> se añade contenido despues de los elementos. 
+    content: " | ";
+}
+
+
