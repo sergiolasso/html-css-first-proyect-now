@@ -233,4 +233,14 @@ EJEMPLO DE PSEUDO ELEMENTO --> MODIFICA EL CONTENIDO DEL HTML.
     content: " | ";
 }
 
+En todos los buscadores, por defecto se añaden un padding y margin. 
+Estos pueden eliminarse de la siguiente forma: 
+*{ ----> Selector universal.
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+
+
 

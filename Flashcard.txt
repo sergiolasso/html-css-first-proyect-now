@@ -143,3 +143,14 @@ BEM
 list-style: none
 
 
+Si tengo la siguiente linea de código:   padding: 20px 35 px; ¿a que afecta el 20px y a que afecta el 35px? 
+
+20 pixeles para alto y bajo.
+30 pixeles para izquiera y derecha. 
+
+
+¿Cual es el selector universal? 
+
+* 
+
+
