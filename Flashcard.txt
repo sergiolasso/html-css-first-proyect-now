@@ -154,3 +154,18 @@ Si tengo la siguiente linea de código:   padding: 20px 35 px; ¿a que afecta el
 * 
 
 
+Cual es la escalera de especificidad de estilos de + a -? 
+
+1. !important
+2. Las etiquetas embebidas en el HTML
+3. # id
+4. .class
+5. tag 
+
+
+Cual es la escala de importancia en CSS? 
+
+1. Se cargan los estilos del navegador 
+2. Se cargan nuestro estilos.css
+3. !important
+

@@ -242,5 +242,41 @@ Estos pueden eliminarse de la siguiente forma:
 }
 
 
+HERENCIA EN CSS
+
+Herencia cosiste en que si le has daod estilos al main y después tienes p dentro, p hereda lo que tenga el main. 
+
+Hay una forma de ponerlo en css, la cual permite a este heredar si esta fuera. 
+
+h1{
+    font-size: inherit;
+}
+
+Con esto, h1 ha heredado el main en el que esta incluido. 
+
+
+IMPORTANCA 
+
+Esto sigue las misma normas que el tráfico. 
+Si dos reglas de css, tienen el mismo nivel de importancia, ya que funciona es la más especifica, mientras que tiene la misma importancia y especificidad, sera la que más abajo se encuentre.
+
+REGLA DE CASCADA
+
+1. Se cargan los estilos del navegador 
+2. Se cargan nuestro estilos.css
+3. !important --> Quita todos los estilos que haya y hace lo que tenga ese important. 
+
+
+ESPECIFICIDAD
+
+1. !important
+2. Las etiquetas embebidas en el HTML
+3. # id
+4. .class
+5. tag 
+
+Poner lo que más nos interese que salga en la parte de abajo. 
+
+
 
 
