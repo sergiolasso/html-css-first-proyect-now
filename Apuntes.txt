@@ -278,5 +278,8 @@ ESPECIFICIDAD
 Poner lo que más nos interese que salga en la parte de abajo. 
 
 
+No es bueno poner estilos en el html, debido a que si después quieres modificarlo, no puedes ya que por nivel de importancia, el que manda es el que ponga las cosas en el html y el css tiene menos importancia. 
+
+
 
 
