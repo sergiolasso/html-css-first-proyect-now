@@ -169,3 +169,5 @@ Cual es la escala de importancia en CSS?
 2. Se cargan nuestro estilos.css
 3. !important
 
+
+
