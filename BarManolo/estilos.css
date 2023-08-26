@@ -8,9 +8,19 @@ main{
     width: 100%;
 }
 
+nav{
+    background-color: cadetblue;
+}
+
 .header-ul-li {
     list-style: none;
     padding: 3px;
     margin: 10px; 
-    background-color: #13a4a4;
+    background-color: wheat;
+    display: inline-block;
+    
+}
+
+.header-ul-li a {
+    text-decoration: none;
 }

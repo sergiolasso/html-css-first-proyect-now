@@ -170,4 +170,11 @@ Cual es la escala de importancia en CSS?
 3. !important
 
 
+Segun tu criterio que deberias de usar 1º, 2º o 3º segun la expeficidad. 
+!important, clases, id. 
+
+1º clases
+2º id 
+3º !important
+
 

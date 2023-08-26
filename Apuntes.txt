@@ -281,6 +281,62 @@ Poner lo que más nos interese que salga en la parte de abajo.
 No es bueno poner estilos en el html, debido a que si después quieres modificarlo, no puedes ya que por nivel de importancia, el que manda es el que ponga las cosas en el html y el css tiene menos importancia. 
 
 
+No se considera buena practica el uso de los id, salvo en circunstancias en la que de verdad va a ser unico. Los proyectos al ser tan grandes y trabajar muchas personas en ellos, es posible que alguien intente modificarlo y esto de problemas de especificidad.
 
 
+COMBINADORES 
+
+Los combiadores nos permiten tener una especificidad mas certera.
+
+Especificidad por "hermanos cercanos": 
+
+h2 + p{ ----> pon en color rojo, aquellos parrafos los cuales estan cerca de un h2, por debajo.
+    color: red ;
+}
+
+    <h2>Soy un h2</h2>
+    <p>Soy un parrafo</p> ----> Este rojo 
+    <h3>Soy un h3</h3>
+    <p>Soy un parrafo</p> ----> Este negro
+    <h2>Soy un h2</h2>
+
+Espeficidad de "Hermano General": 
+
+h2 ~ p{ ----> Lo mismo pero estos tiñen tanto arriba como abajo.
+    color: blue
+}
+        <h2>Soy un h2</h2>
+        <p>Soy un parrafo</p> ----> blue
+        <h2>Soy un h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un parrafo</p> ----> blue
+        <h2>Soy un h2</h2>
+        <p>Soy un parrafo</p> ----> blue 
+
+Especifidad de "hijo": 
+
+div > p { ----> solo va a teñir de color morado los hijos directos 
+    color: purple; 
+}
+
+Especificidad de "descendiente": (El de toda la vida)
+
+div p { ----> Todo parrafo que haya dentro de un div, aunque este luego metido en otras cosas como un section, se tiñe de morado.
+    color: purple; 
+}
+
+
+MEDIDAS
+
+Existen dos tipos de medidas: 
+
+absolutas : 
+
+- px ---> pixeles 
+
+relativas: 
+
+- % 
+- em --> elemento
+- todas las demas.
 
