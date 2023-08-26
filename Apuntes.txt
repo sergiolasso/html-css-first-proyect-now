@@ -330,13 +330,14 @@ MEDIDAS
 
 Existen dos tipos de medidas: 
 
-absolutas : 
+absolutas : (Es de un tamño y punto. No cambia segun la pantalla)
 
 - px ---> pixeles 
 
-relativas: 
+relativas: (Relativo al tamaño de la pantalla)
 
 - % 
 - em --> elemento
 - todas las demas.
+
 
