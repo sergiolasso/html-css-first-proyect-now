@@ -340,4 +340,37 @@ relativas: (Relativo al tamaño de la pantalla)
 - em --> elemento
 - todas las demas.
 
+EM 
+
+em permite ajustar el tamaño del texto a diferentes pantallas. 
+
+.text-container{
+    font-size: 1.5em;
+}
+
+En este caso, multiplicara por 1.5em al tamaño por defecto. 
+
+
+
+.text-container{
+    font-size: 1.5em;
+}
+
+.text-container div{
+    font-size: 1.5em;
+}
+
+Este seria el ejemplo el cual se tiene que tener cuidado. Porque va a multiplicar dos veces por 1.5 ya que al ir en cascada, primero se multiplica una vez y luego otra por estar dentro del div.
+
+
+REM 
+
+Un REM equivale a la cantidad por defecto la caja principal.
+En un caso normal seria lo que nos da el html que para un parrafo es 16px 
+1rem = 16px
+
+html{
+    font-size: 62.5%;
+}
+En este caso lo hemos modificado, lo que un 1rem equivale a 10px
 
