@@ -9,6 +9,14 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+nav{
+    display: inline-block;
+}
+
+li{
+    background-color: blue;
+}
+
 h1{
     font-size: inherit;
 }
