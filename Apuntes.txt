@@ -372,5 +372,13 @@ En un caso normal seria lo que nos da el html que para un parrafo es 16px
 html{
     font-size: 62.5%;
 }
+p{
+    font-size: 1.6rem;
+}
 En este caso lo hemos modificado, lo que un 1rem equivale a 10px
+
+rem es mejor utilizarlo, ya que este se modifica segun el elemento raiz, mientras que px, es un tamaño fijo. 
+
+
+
 
