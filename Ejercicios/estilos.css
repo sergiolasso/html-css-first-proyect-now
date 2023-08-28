@@ -1,0 +1,33 @@
+/* Reset de estilos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Estilos para las cajas */
+.arriba, .izquierda, .medio, .derecha, .abajo {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+/* Estilos para el layout en pantallas pequeñas */
+@media (max-width: 600px) {
+    .container {
+        margin: 10% 5%;
+    }
+}

@@ -379,6 +379,32 @@ En este caso lo hemos modificado, lo que un 1rem equivale a 10px
 
 rem es mejor utilizarlo, ya que este se modifica segun el elemento raiz, mientras que px, es un tamaño fijo. 
 
+min-width max-width 
+
+section{
+    width: 80%;
+    min-width: 320px; ----> Este es el tamaño minimo que va a tener el section 
+    max-width: 500px; ----> Es va a ser el tamaño maximo que va a tener el section
+    min-height: 500px; -----> El minimo del alto que va a tener
+    max-height: 100vw; -----> El maximo de alto que va a tener
+    margin: 0 auto;
+    background-color: red;
+}
+
+De esta forma, el contenido se va a adaptar mejor. 
 
 
+POSITION 
+
+Todas las cajas y elementos dentro de html, estan por defecto en static. 
+
+Existen otros tipos como 
+
+absolute
+
+relative
+
+fixed
+
+sticky
 

@@ -4,3 +4,24 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 32px;
+}
+
+main{
+    width: 100vw;
+    height: 100vw;
+    background-color: blueviolet;
+}
+
+section{
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    max-height: 100vw;
+    margin: 0 auto;
+    background-color: red;
+}
+
+
