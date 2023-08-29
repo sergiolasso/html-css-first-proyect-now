@@ -7,27 +7,67 @@
 
 /* Estilos para el contenedor */
 .container {
-    width: 100%;
-    max-width: 600px;
-    margin: 10% auto;
-    padding: 20px;
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 70vw;
+    max-height: 70px;
     background-color: blue;
-    border-radius: 10px;
-    position: relative;
+    margin: 10% 30%;
+    border-radius: 10%;
+    
 }
 
-/* Estilos para las cajas */
-.arriba, .izquierda, .medio, .derecha, .abajo {
+.arriba {
+    position: relative;
     background-color: red;
     width: 80px;
     height: 80px;
     border-radius: 10px;
-    margin: 10px auto;
+    bottom: 100px;
+    margin: auto;
+
 }
 
-/* Estilos para el layout en pantallas pequeñas */
-@media (max-width: 600px) {
-    .container {
-        margin: 10% 5%;
-    }
+.izquierda {
+    background-color: red;
+    position: relative; 
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: auto;
+    bottom: -120px;
+    right: -500px; 
 }
+
+.derecha {
+    background-color: red;
+    position: relative; 
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: auto;
+    right: 400px;
+    bottom: 40px;
+}
+
+.abajo {
+    background-color: red;
+    position: relative; 
+    width: 80px;
+    height: 80px;
+    margin: auto; 
+    border-radius: 10px;
+    bottom: -200px;
+}
+
+.medio {
+    background-color: grey;
+    position: relative; 
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: auto; 
+    bottom: -40px;
+}
+
+
