@@ -402,9 +402,16 @@ Existen otros tipos como
 
 absolute
 
+Este no guarda la posición y se sobre pone si hace falta. 
+
 relative
 
-fixed
+Este se coloca en otra parte, pero el hueco donde el existe como tal, no se modifica. 
 
-sticky
+Este es el position que tiene, donde los hijos, toman referencia dentro de la caja padre, por lo que permite centrarlos o colocarlos en la posición que quedamos dentro de la caja padre, (aunque si ponemos demasiados pixeles, se saldran de la caja). 
 
+DISPLAY : flex
+
+El display: flex, permite que las cajas de contenido coexistan entre si, pudiendo colocarse en la misma linea si este no ocupa todo el espacio en el navegador. Es importante colocarlo en el contenedor padre y no en los hijos. 
+
+Si se quiere hacer que varias cajas hagan una cosa en concreto. Lo mejor es meterlas dentro de un contenedor padre y aplicarle los estilos a el. 
