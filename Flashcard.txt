@@ -178,3 +178,11 @@ Segun tu criterio que deberias de usar 1º, 2º o 3º segun la expeficidad.
 3º !important
 
 
+Como se crea una variable en CSS? 
+
+--nombre : contenido de variable
+
+
+Como se llama a una variable con CSS? 
+
+var(--nombre)

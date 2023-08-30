@@ -415,3 +415,54 @@ DISPLAY : flex
 El display: flex, permite que las cajas de contenido coexistan entre si, pudiendo colocarse en la misma linea si este no ocupa todo el espacio en el navegador. Es importante colocarlo en el contenedor padre y no en los hijos. 
 
 Si se quiere hacer que varias cajas hagan una cosa en concreto. Lo mejor es meterlas dentro de un contenedor padre y aplicarle los estilos a el. 
+
+CREACION DE VARIABLES EN CSS
+
+Las variables son utilizadas en css para evitar errores humanos y para ahorrar codigo 
+
+:root{
+    --primary-color: #003476;
+    --secondary-color: #b4d2f7;
+    --header-size: 4rem; 
+    --font:1.8rem; 
+}
+
+Esta es la forma correcta de creacion de 4 variables. 
+
+Son creadas así --nombre: "contenido de variable"
+
+Son llamadas así var(--nombre)
+
+De esta forma, los colores los cuales son llamados por su codigo, evitamos el error humano de que este se equivoque en un número.
+
+De esta forma podemos unificar, partes del codigo, llamando a la variable en vez de llamarlas cada vez que se necesiten. 
+
+
+FONT
+
+Fuentes o tipografia de texto. 
+Hay un conjunto de tipografias las cuales ya vienen programadas en todas las conputadoras.
+Estas son conodicas como generic.families
+
+senif 
+
+sand-senif 
+
+cursive
+
+monospace
+
+Estas seran las que carguen cuando no se pueda cargar aquellas menos comunes.
+
+Por norma general, es preferible que solo se cargue 1 fuente. 
+Poner la etiqueta en el head.
+Evitar el import. 
+
+Los links son peticiones a servidores que pueden cambiar con el tiempo, ademáss que no es algo que uno controle, por lo que puede alterar nuestro producto final. 
+
+
+MEDIA QUERIES 
+
+
+
+
