@@ -463,6 +463,14 @@ Los links son peticiones a servidores que pueden cambiar con el tiempo, ademáss
 
 MEDIA QUERIES 
 
+Es el formato que nos permite modificar la estructura de nuestra pagina web, segun el tamaño de la pantalla que tenga el usuario. 
+
+Existe un formato, el cual es usado en la mayoria de productos a dia de hoy, que es "Mobile First/Only", el cual diseña el producto para los moviles. Empezando desde las pantallas mas pequeñas a las mas grandes. 
+
+Lo mejor para esto es no tener un css con todo, sino un css para cada pantalla, lo que permitirá al usuario no cargar todos los estilos del css sino solo, los de su tipo de pantalla. 
+
+
+
 
 
 
