@@ -469,7 +469,7 @@ Existe un formato, el cual es usado en la mayoria de productos a dia de hoy, que
 
 Lo mejor para esto es no tener un css con todo, sino un css para cada pantalla, lo que permitirá al usuario no cargar todos los estilos del css sino solo, los de su tipo de pantalla. 
 
-
+Para poder hacer bien Media Queries es creando varias hojas de CSS para cada formato. 
 
 
 
