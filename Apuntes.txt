@@ -472,5 +472,31 @@ Lo mejor para esto es no tener un css con todo, sino un css para cada pantalla, 
 Para poder hacer bien Media Queries es creando varias hojas de CSS para cada formato. 
 
 
+Recomendaciones Responsive !!!! 
+
+Dividir el proyecto. En codigo más simple 
+Por ejemplo en vez de tener una sola hoja de css, poner varias para cada tamaño. Normalmente los dispositivos con pantallas más grandes suelen tener mas procesador. 
+De esta forma no se cargan estilos que n se van a usar. 
+
+
+Forma correcta para poner una imagen: 
+<picture>
+    <source media="(min-width:1000px)"  srcset="img/imagenMediana.jpg">
+    <source media="(min-width:1300px)"  srcset="img/imagenGrande.jpg">
+    <img src="img/imagenPequeña.jpg" alt="Imagen de Ejemplo">
+</picture>
+
+
+ACCESIVILIDAD 
+
+Para evitar que las paginas las puedan usar personas con dificultad visual que necesitan letras grandes, en vez de usar px, usar rem, de esta forma cuando la persona vaya a su menu e configuracionh y lo aumente, este podra modificarlo, cosa que no px no. 
+
+
+Una imagen accesible se escribe así: 
+
+<img 
+    src="" 
+    alt="Es un zapato" ---> Es lo que sale cuando no carga la imagen y para personas ciegas, lee lo que pone en esta etiqueta.
+    title="Es un perrito">  -> Cuando se pone el raton encima, te sale un cartelito con lo que ponga en title
 
 
